@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Reptile</name>
+    </assembly>
+    <members>
+        <member name="T:Reptile.Controllers.NbaPlayerController">
+            <summary>
+            下載Nba球員生涯資料
+            </summary>
+        </member>
+        <member name="M:Reptile.Controllers.NbaPlayerController.#ctor(Service.Interfaces.INbaPlayerService)">
+            <summary>
+            NbaPlayerController
+            </summary>
+            <param name="nbaPlayService"></param>
+        </member>
+        <member name="M:Reptile.Controllers.NbaPlayerController.GetAsync">
+            <summary>
+            取得Nba球員生涯資料壓縮檔
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Reptile.Startup">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:Reptile.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Startup
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Reptile.Startup.Configuration">
+            <summary>
+            Configuration
+            </summary>
+        </member>
+        <member name="M:Reptile.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            ConfigureServices
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Reptile.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Configure
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

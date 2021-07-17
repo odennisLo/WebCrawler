@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reptile", "Reptile\Reptile.csproj", "{0E2BF8CE-2073-4955-ABC5-2F4E2D3103D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7BDF4813-F43A-4296-A870-E2330006318E} = {7BDF4813-F43A-4296-A870-E2330006318E}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Common", "0.Common", "{EF844F38-F16C-4598-805B-E6D11A212B6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Application", "1.Application", "{99D38E5C-A36A-4E77-9C71-28A404E035B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEC0CB47-0B0B-437E-B024-1D4667AA29C1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		C:\Users\user\Desktop\CodeMaid.config = C:\Users\user\Desktop\CodeMaid.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{7BDF4813-F43A-4296-A870-E2330006318E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E2BF8CE-2073-4955-ABC5-2F4E2D3103D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2BF8CE-2073-4955-ABC5-2F4E2D3103D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2BF8CE-2073-4955-ABC5-2F4E2D3103D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2BF8CE-2073-4955-ABC5-2F4E2D3103D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BDF4813-F43A-4296-A870-E2330006318E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BDF4813-F43A-4296-A870-E2330006318E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BDF4813-F43A-4296-A870-E2330006318E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BDF4813-F43A-4296-A870-E2330006318E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E2BF8CE-2073-4955-ABC5-2F4E2D3103D8} = {99D38E5C-A36A-4E77-9C71-28A404E035B4}
+		{7BDF4813-F43A-4296-A870-E2330006318E} = {EF844F38-F16C-4598-805B-E6D11A212B6C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E405277-808E-4073-BDE2-8324721861AA}
+	EndGlobalSection
+EndGlobal
